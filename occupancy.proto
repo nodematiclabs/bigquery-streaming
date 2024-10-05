@@ -1,0 +1,6 @@
+syntax = "proto3";
+message Occupancy {
+    string sensor_id = 1;
+    int32 occupants = 2;
+    string timestamp = 3;
+}

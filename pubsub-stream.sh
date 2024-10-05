@@ -1,0 +1,1 @@
+gcloud pubsub topics publish occupancy --message='{"sensor_id":"foo","occupants":1,"timestamp":"2024-04-07T00:00:00"}'
